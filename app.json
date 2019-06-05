@@ -1,0 +1,21 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env": {
+    "d": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "name": "testh1",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
